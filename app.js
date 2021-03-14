@@ -15,8 +15,11 @@ var express = require('express');
 var unblocker = require('unblocker');
 var Transform = require('stream').Transform;
 var youtube = require('unblocker/examples/youtube/youtube.js')
+var helmet = require("helmet"); //improve security slightly :/ 
+
 
 var app = express();}
+app.use(helmet());
 
 var unblockerConfig = {
     prefix: '/proxy/',
