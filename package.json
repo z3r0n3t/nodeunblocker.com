@@ -8,6 +8,7 @@
   "dependencies": {
     "express": "^4.13.0",
     "gatling": "~1.2.0",
+    "helmet": "^4.4.1",
     "newrelic": "^1.20.2",
     "through": "^2.3.8",
     "unblocker": "*",
